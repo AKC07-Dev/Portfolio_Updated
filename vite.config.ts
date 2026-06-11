@@ -12,4 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Overriding Lovable's default Cloudflare target for Nitro
+  nitro: {
+    preset: "vercel", 
+  },
 });
