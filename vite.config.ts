@@ -13,7 +13,7 @@ export default defineConfig({
       },
     }),
     nitro({
-      preset: "vercel",
+      preset: "vercel", // This tells Nitro to output Vercel Serverless Functions
     }),
     viteReact(),
     tailwindcss(),
